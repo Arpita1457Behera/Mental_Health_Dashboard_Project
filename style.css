@@ -1,0 +1,134 @@
+
+/* ==============================
+   MAIN BACKGROUND
+============================== */
+
+.stApp {
+    background-color: #f5f7fb;
+}
+
+.main .block-container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* ==============================
+   HEADINGS AND TEXT
+============================== */
+
+h1, h2, h3, h4 {
+    color: #1f3c88 !important;
+}
+
+h1 {
+    font-size: 42px !important;
+    overflow-wrap: anywhere;
+}
+
+p, label, .stMarkdown {
+    color: #374151 !important;
+}
+
+
+/* ==============================
+   METRIC CARDS
+============================== */
+
+[data-testid="stMetric"] {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #4b5563 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #111827 !important;
+}
+
+
+/* ==============================
+   SIDEBAR
+============================== */
+
+[data-testid="stSidebar"] {
+    background-color: #eaf0ff;
+}
+
+[data-testid="stSidebar"] label {
+    color: #1f2937 !important;
+    font-weight: 500;
+}
+
+
+/* ==============================
+   DROPDOWN BOXES
+============================== */
+
+[data-testid="stSidebar"] [data-baseweb="select"] > div {
+    background-color: white !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] span {
+    color: #1f2937 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] svg {
+    fill: #1f2937 !important;
+}
+
+
+/* ==============================
+   DROPDOWN MENU
+============================== */
+
+[data-baseweb="popover"] {
+    background-color: white !important;
+}
+
+[data-baseweb="popover"] * {
+    color: #1f2937 !important;
+}
+
+
+/* ==============================
+   DOWNLOAD BUTTON
+============================== */
+
+.stDownloadButton button {
+    background-color: #1f3c88 !important;
+    color: white !important;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+/* Download button fix */
+.stDownloadButton button {
+    background-color: #1f3c88 !important;
+    border-radius: 8px !important;
+    border: none !important;
+    padding: 10px 20px !important;
+}
+
+/* Download button text and icon */
+.stDownloadButton button p,
+.stDownloadButton button span,
+.stDownloadButton button div {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* Hover effect */
+.stDownloadButton button:hover {
+    background-color: #162d68 !important;
+}
